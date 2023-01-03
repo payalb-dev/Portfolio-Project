@@ -50,13 +50,14 @@ nav li{
   
 
 }
+
 nav a{
   color:#385170;
   text-decoration: none;
   transition: all 100ms ease-in-out;
 
 }
-nav a:hover{
+nav a:hover,nav li.active a{
   color: var(--branding-color);
 }
 .hero{
